@@ -1,0 +1,183 @@
+*{margin: 0;
+  padding: 0;
+  
+}
+
+body{
+    background-image: url(../assets/fundao.png) ;
+   background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    
+    
+    
+
+   
+    
+
+    
+}
+
+.container{
+    background-color: rgb(149, 224, 153);
+    font-family: Impact,arial;
+    max-width: 300x;
+    padding: 30px;
+    border-radius: 80px;
+    border:1px solid #a498ce;
+    box-shadow: 3px 3px 30px white;
+    color:#000000;
+    font-size: large;
+    margin-left: 0rem;
+    margin-bottom: 5cm;
+    float: left ;
+  
+    
+    
+
+}
+
+
+h4{
+    font-size: 25px;
+}
+
+
+h1 {
+    font-family: 'fontePerso'; /*'Diplomata SC'*/
+    margin-top: 0;
+    margin-bottom:0.2cm;
+    color:#06145a;
+    text-align: center;
+    font-size: 100%;
+    font-weight:  bold;
+   /* border:solid #c28b64;*/
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.116);
+    transition-property: padding;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+    
+
+    
+    
+
+}
+
+
+h1:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input{
+    width: 98%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-color:#89b4df85;
+    border-radius: 30px;
+    
+   
+    
+}
+
+
+
+#adultos{
+    background-image: url(../assets/adultocortada.png) ;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center;
+        
+    
+}
+
+
+#criancas{
+    background-image: url(../assets/cri.jpg) ;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center;
+}
+
+
+#duracao{
+    background-image: url(../assets/relogio.jpg) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+input::placeholder {
+    color: #25614a;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px
+    
+    
+  }
+    
+
+
+
+button{
+    cursor: pointer;
+    color:#25614a;
+    background-color:rgb(149, 224, 153);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Marker Felt;
+    font-weight: bold;
+    width: 100px;
+    height: 37px;
+    margin-bottom: 5px;    
+    border:solid #1d254b;
+    transition-property: background-color, padding;
+    transition-duration: 700ms;
+    transition-delay: 100ms;
+}
+
+
+    
+
+button:hover{  /*quando passa o mause muda o fundo da cor do botão*/
+    background-color:white;
+    color: #1d254b;
+}
+
+
+
+section{
+    /*background-image:url(/assets/churrax.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    
+}
+
+
+#resultado{
+    color:#000000;;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+
+/*Fonts Baixadas*/
+@font-face{
+    font-family:"fontePerso" ;
+    src:url("../fonts/dragon\ fruit\ ttf.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    /*TIPOS DE FORMATO
+    -opentype (otf)
+    -Truetype (ttf)
+   -embedded - opentype
+    -truetype-att (aple advenced typography)
+    -svg */
+
+}
